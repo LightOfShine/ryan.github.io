@@ -11,6 +11,9 @@
     <!-- Boostrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -47,9 +50,9 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-        <img src="img/ryan.jpg" alt="Ryan Gabriel" width="200" class="rounded-circle img-thumbnail">
-        <h1 class="display-4">Ryan Gabriel Togar Simamora</h1>
-        <p class="lead">Web Developer | Content Creator</p>
+        <img src="img/ryan.jpg" alt="Ryan Gabriel" width="200" class="rounded-circle img-thumbnail "/>
+        <h1 class="display-4"  >Ryan Gabriel Togar Simamora</h1>
+        <p class="lead"></p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L40,112C80,128,160,160,240,154.7C320,149,400,107,480,106.7C560,107,640,149,720,186.7C800,224,880,256,960,266.7C1040,277,1120,267,1200,218.7C1280,171,1360,85,1400,42.7L1440,0L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
       </section>
 
@@ -57,14 +60,14 @@
 
     <!-- About -->
     <section id="about">
-        <div class="container">
+        <div class="container " data-aos="fade-down" data-aos-duration="1000" >
             <div class="row text-center mb-3">
                 <div class="col">
                     <h2>About Me</h2>
                 </div>
             </div>
             <div class="row justify-content-center fs-5 text-start">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-right"  data-aos-duration="1500" data-aos-delay="200">
                     <p>                 Hai, Sobat!
                             Ayo, kita mulai berkenalan! </p>
                     <p>Nama saya adalah Ryan Gabriel, dan web ini adalah tempat aku nge-'show off' tentang apa yang aku suka dan aku bisa. Siap-siap aja, karena aku bakal cerita dikit tentang diri aku yang luar biasa ini :)</p>
@@ -76,7 +79,7 @@
                         Makanya, Kenapa Harus Pilih Aku?
                         Kalo ada proyek bareng, aku janji bakal ngasih energi positif dan hasil yang bikin 'wow'. Kita bisa bikin sesuatu yang beda dari biasanya, dan aku selalu punya trik kejutan untuk kalian.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left"  data-aos-duration="1500">
                     <p>Philosophy Saya</p>
                     <p>Aku punya motto hidup yang sederhana: "Hidup cuma sekali, bikin jadi berarti!" Aku selalu ngerasa tiap tantangan itu kesempatan buat nambahin level dan jadi versi terbaik dari diri aku sendiri. Kolaborasi dan saling dukung juga penting banget, soalnya sama-sama 'ngangenin' hasil kerja.</p>
                     <p>Ngapain Aja Kamu ?</p>
@@ -104,7 +107,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500">
                         <img src="img/projects/1.jpg" class="card-img-top" alt="Projects1">
                         <div class="card-body">
                           <p class="card-text">"Programming is not about typing, it's about thinking."</p>
@@ -112,7 +115,7 @@
                       </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="100">
                         <img src="img/projects/2.jpg" class="card-img-top" alt="Projects2">
                         <div class="card-body">
                           <p class="card-text">"The best error message is the one that never shows up." </p>
@@ -121,7 +124,7 @@
                 </div>
                 
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
                         <img src="img/projects/4.jpg" class="card-img-top" alt="Projects4">
                         <div class="card-body">
                           <p class="card-text">"It's not a bug. It's an undocumented feature!" </p>
@@ -129,7 +132,7 @@
                       </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
                         <img src="img/projects/5.jpg" class="card-img-top" alt="Projects5">
                         <div class="card-body">
                           <p class="card-text">"Any fool can write code that a computer can understand. Good programmers write code that humans can understand." </p>
@@ -137,7 +140,7 @@
                       </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="400">
                         <img src="img/projects/6.jpg" class="card-img-top" alt="Projects6">
                         <div class="card-body">
                           <p class="card-text">"The only way to learn a new programming language is by writing programs in it." </p>
@@ -150,6 +153,64 @@
     </section>
     
     <!-- Akhir Projects -->
+
+    <!-- Gallery -->
+
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+              <h2>Gallery</h2>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/Thumbnail/1.jpeg" alt="Gambar 1" class="img-fluid gallery-img" />
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/Thumbnail/2.jpg" alt="Gambar 2" class="img-fluid gallery-img" />
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/Thumbnail/9.jpg" alt="Gambar 9" class="img-fluid gallery-img" />
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/Thumbnail/4.jpeg" alt="Gambar 4" class="img-fluid gallery-img" />
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/Thumbnail/7.jpg" alt="Gambar 7" class="img-fluid gallery-img" />
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/Thumbnail/8.jpg" alt="Gambar 8" class="img-fluid gallery-img" />
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/Thumbnail/3.jpg" alt="Gambar 3" class="img-fluid gallery-img" />
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/gallery/Thumbnail/6.jpg" alt="Gambar 6" class="img-fluid gallery-img" />
+          </a>
+        </div>
+        
+        
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir Gallery -->
 
     <!-- Contact -->
 
@@ -213,6 +274,29 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+
+      // AOS
+      const galleryImage = document.querySelectorAll('.gallery-img');
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = 'zoom-in';
+        img.dataset.aosDelay = i * 50;
+        img.dataset.aosDuration = 1000;
+      });
+      AOS.init();
+    </script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script>
+      gsap.to('.lead', {duration : 2 , delay : 1.5 , text : 'Web Developer | Content Creator' })
+      gsap.registerPlugin(TextPlugin);
+      gsap.from('.jumbotron img', {duration: 1 , rotateY:360 , opacity:0 });
+      gsap.from('.navbar', {duration: 1.5 , y: '-100%' ,  opacity:0,ease: 'bounce' });
+      gsap.from('.display-4', {duration: 1 , x : -50 ,  opacity:0, delay : 0.5 , ease : 'back' });
+    </script>
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbytEUP00v2Msr33jOH7dTztYPYtiLLRg-USim9l7qAYWjS10vXFOtfEmRc-XpOJRzgi/exec'
