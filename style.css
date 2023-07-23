@@ -20,55 +20,54 @@ section {
 }
 
 /* My Tools Section */
-.tools-box {
+.keyboard-box {
   position: relative;
-  background-color: rgb(136, 7, 7);
-  border-radius: 10px;
+  background-color: rgb(137, 7, 7);
+  border-radius: 15px;
   height: 500px;
   transform-style: preserve-3d;
 }
 
-.tools-box::before {
-  content: "MY";
+.keyboard-box::before {
+  content: "My";
   position: absolute;
-  color: #fff;
+  color: white;
   font-size: 6em;
   font-weight: bold;
   font-style: italic;
+  left: 50%;
   top: 30px;
+  transition: 0.5s;
   left: 50%;
   transform: translate(-50%, 0);
-  opacity: 0;
-  transition: 0.5s;
 }
 
-.tools-box:hover::before {
+.keyboard-box:hover::before {
   opacity: 0.2;
 }
 
-.tools-box::after {
+.keyboard-box::after {
   content: "Tools";
   position: absolute;
-  color: #fff;
+  color: white;
   font-size: 4.3em;
   font-weight: bold;
   font-style: italic;
   top: 350px;
+  transition: 0.5s;
+  opacity: 0;
+  transform: translate(-50%, 0);
   left: 50%;
   transform: translate(-50%, 0);
-  opacity: 0;
-  transition: 0.5s;
 }
 
-.tools-box:hover::after {
+.keyboard-box:hover::after {
   opacity: 0.2;
 }
 
-.tools-name {
-  position: absolute;
+.keyboard-name {
   top: 0;
-  width: 100%;
-  color: #fff;
+  color: white;
   text-align: center;
   font-size: 2em;
   opacity: 0;
@@ -76,34 +75,36 @@ section {
   transform: translate3d(0, 0, 50px);
 }
 
-.tools-box:hover .tools-name {
+.keyboard-box:hover .keyboard-name {
   top: 20px;
   opacity: 1;
 }
 
-.tools-detail-button {
+.keyboard-detail-button {
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translate3d(-50%, 0, 100px);
   opacity: 0;
   transition: 0.5s;
+  z-index: 3;
 }
 
-.tools-box:hover .tools-detail-button {
+.keyboard-box-hover .keyboard-detail-button {
   opacity: 1;
-  bottom: 15px;
+  bottom: 20px;
 }
 
-.tools-img {
+.keyboard-img {
   position: absolute;
-  top: 50%;
+  top: 51%;
   left: 50%;
-  transform: translate3d(-50%, -50%, 80px);
+  transform: translate3d(-50%, -51%, 80px);
   max-width: 350px;
-  transition: 0.5s;
+  z-index: 10;
 }
 
-.tools-box:hover .tools-img {
-  transform: translate3d(-50%, -51%, 100px) rotate(2deg) scale(1.1);
+.keyboard-box:hover .keyboard-img {
+  transform: translate3d(-50%, -52%, 100px) rotate(4deg) scale(1.2);
+  transition: 0.5s;
 }
